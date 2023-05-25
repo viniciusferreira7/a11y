@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={roboto.className}>
-      <body>{children}</body>
+      <body className="bg-zinc-950">{children}</body>
     </html>
   )
 }
