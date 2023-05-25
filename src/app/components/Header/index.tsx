@@ -13,6 +13,7 @@ export function Header() {
           target="_blank"
           rel="noreferrer"
           className="text-[#8257e5] text-2xl"
+          title="Github"
         >
           <GithubLogo weight="bold" />
         </a>
