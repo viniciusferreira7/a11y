@@ -2,6 +2,7 @@
 
 import { GithubLogo } from 'phosphor-react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export function Header() {
   return (
@@ -14,7 +15,7 @@ export function Header() {
         className="object-cover"
       />
       <nav>
-        <a
+        <Link
           href="https://github.com/viniciusferreira7"
           target="_blank"
           rel="noreferrer"
@@ -22,7 +23,7 @@ export function Header() {
           aria-label="Github"
         >
           <GithubLogo weight="bold" />
-        </a>
+        </Link>
       </nav>
     </header>
   )

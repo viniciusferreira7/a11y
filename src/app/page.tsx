@@ -1,10 +1,11 @@
+import { Dialog } from './components/Dialog'
 import { Header } from './components/Header'
 import RootLayout from './layout'
 
 export default function Home() {
   return (
     <RootLayout>
-      <div className="max-w-screen-lg w-full m-auto p-2">
+      <div className="max-w-screen-lg w-full m-auto p-2 min-h-screen flex flex-col">
         <Header />
         <main className="text-gray-300 max-w-screen-md mx-auto mt-10">
           <article>
@@ -29,6 +30,12 @@ export default function Home() {
             <h3 className="my-5 text-lg">O que é acessibilidade, afinal?</h3>
           </article>
         </main>
+        <footer className="flex justify-between items-center mt-auto py-6">
+          <h3 className="text-lg text-white uppercase -tracking-tighter">
+            Rocketseat - 2023
+          </h3>
+          <Dialog />
+        </footer>
       </div>
     </RootLayout>
   )
