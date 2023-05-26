@@ -13,10 +13,10 @@ export default function Home() {
                 A11Y
               </h1>
               <h2 className="my-5 text-2xl">Desenvolvendo uma web acessível</h2>
-              <h4>
+              <h3 className="my-5 text-lg">
                 Protocolo e diretrizes orientam o desenvolvimento de tecnologias
                 acessíveis, mas é preciso olhar para além de tudo isso.
-              </h4>
+              </h3>
             </header>
             <p className="my-5">
               Acessibilidade se tornou uma tendência no ecossistema tecnológico
@@ -26,7 +26,7 @@ export default function Home() {
               recursos e consciência do que de fato é inclusivo na internet para
               pessoas com deficiências.
             </p>
-            <h3>O que é acessibilidade, afinal?</h3>
+            <h3 className="my-5 text-lg">O que é acessibilidade, afinal?</h3>
           </article>
         </main>
       </div>
