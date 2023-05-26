@@ -6,7 +6,7 @@ export default function Home() {
     <RootLayout>
       <div className="max-w-screen-lg w-full m-auto p-2">
         <Header />
-        <main className="text-gray-500 max-w-screen-md mx-auto mt-10">
+        <main className="text-gray-300 max-w-screen-md mx-auto mt-10">
           <article>
             <header>
               <h1 className="text-white text-5xl font-bold tracking-wider text-center">
