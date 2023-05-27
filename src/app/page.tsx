@@ -1,4 +1,4 @@
-import { Dialog } from './components/Dialog'
+import { TermsOfUseContentModal } from './components/TermsOfUseContentModal'
 import { Header } from './components/Header'
 import RootLayout from './layout'
 
@@ -34,7 +34,9 @@ export default function Home() {
           <h3 className="text-lg text-white uppercase -tracking-tighter">
             Rocketseat - 2023
           </h3>
-          <Dialog />
+          <nav>
+            <TermsOfUseContentModal />
+          </nav>
         </footer>
       </div>
     </RootLayout>
